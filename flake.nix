@@ -9,6 +9,7 @@
     nixosConfigurations.qa =
       nixpkgs.lib.nixosSystem {
         modules = [
+          ./basic.nix
           tagion.nixosModules.default
           ./qa/default.nix
         ];
