@@ -14,4 +14,14 @@
   services.openssh.enable = true;
 
   system.stateVersion = "23.05";
+
+  services.avahi = {
+    nssmdns = true;
+    ipv4 = true;
+    ipv6 = true;
+    publish = {
+      enable = true;
+      addresses = true;
+    };
+  };
 }
