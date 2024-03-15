@@ -1,10 +1,10 @@
 { ... }:
 {
   imports = [
-    ./hardware-configuration.nix
+    ./uranus.nix
   ];
 
-  networking.hostName = "qa-tgn";
+  networking.hostName = "uranus";
   tagion.services.tagionwave.enable = true;
   tagion.services.tagionshell.enable = true;
   system.stateVersion = "23.11";
