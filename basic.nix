@@ -16,8 +16,6 @@
   services.tailscale.enable = true;
   services.openssh.enable = true;
 
-  system.stateVersion = "23.05";
-
   services.avahi = {
     nssmdns = true;
     ipv4 = true;
