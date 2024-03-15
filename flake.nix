@@ -10,6 +10,7 @@
       nixpkgs.lib.nixosSystem {
         modules = [
           ./basic.nix
+          ./users/base.nix
           tagion.nixosModules.default
           ./qa/default.nix
         ];
