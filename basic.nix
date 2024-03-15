@@ -18,6 +18,7 @@
   services.openssh.settings.PasswordAuthentication = false;
   services.openssh.settings.PermitRootLogin = "no";
 
+  services.avahi.enable = true;
   services.avahi = {
     nssmdns4 = true;
     ipv4 = true;
