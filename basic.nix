@@ -1,4 +1,4 @@
-{ pkgs, config }:
+{ ... }:
 {
   nixpkgs.config.allowUnfree = true;
 
@@ -9,6 +9,9 @@
 
   # Enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
+  programs.fish.enable = true;
+  programs.neovim.enable = true;
 
   services.tailscale.enable = true;
   services.openssh.enable = true;
