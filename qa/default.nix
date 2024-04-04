@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 {
   imports = [
     ./uranus.nix
@@ -10,6 +10,10 @@
   system.stateVersion = "23.11";
 
   programs.git.enable = true;
+
+  environment.systemPackages = with pkgs; [
+    git-crypt
+  ];
 
   services.github-runners.qa = {
     name = "qa@uranus";
