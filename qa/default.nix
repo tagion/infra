@@ -9,6 +9,8 @@
   tagion.services.tagionshell.enable = true;
   system.stateVersion = "23.11";
 
+  programs.git.enable = true;
+
   services.github-runners.qa = {
     name = "qa@uranus";
     tokenFile = ../secrets/github_pat;
