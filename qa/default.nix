@@ -5,8 +5,8 @@
   ];
 
   networking.hostName = "uranus";
-  tagion.services.tagionwave.enable = true;
-  tagion.services.tagionshell.enable = true;
+  # tagion.services.tagionwave.enable = true;
+  # tagion.services.tagionshell.enable = true;
   system.stateVersion = "23.11";
 
   programs.git.enable = true;
