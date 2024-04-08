@@ -19,7 +19,7 @@
     name = "qa@uranus";
     tokenFile = ../secrets/github_pat;
     url = "https://github.com/tagion/tagion";
-    ephemeral = true;
+    ephemeral = false;
     extraLabels = [ "qa" "qa-1" "nixos" ];
   };
 
