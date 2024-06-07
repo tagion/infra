@@ -17,6 +17,7 @@
   services.openssh.enable = true;
   services.openssh.settings.PasswordAuthentication = false;
   services.openssh.settings.PermitRootLogin = "no";
+  services.dockerRegistry.enable = true;
 
   services.avahi.enable = true;
   services.avahi = {
