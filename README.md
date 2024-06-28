@@ -1,3 +1,9 @@
+If you need to update the secrets or deploy to a new machine, then you'll need to unlock the git-crypt store. The secrets will automatically be encrypted again when committing.
+
+```bash
+./unlock.sh
+```
+
 To rebuild the os configuration run
 
 ```bash
