@@ -7,7 +7,7 @@ If you need to update the secrets or deploy to a new machine, then you'll need t
 To rebuild the os configuration run
 
 ```bash
-nixos-rebuild switch --flake .#qa
+nixos-rebuild switch --flake --target-host base@uranus .#qa
 ```
 
 Tagion infrastructure
