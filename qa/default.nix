@@ -23,4 +23,5 @@
     extraLabels = [ "qa" "qa-1" "nixos" ];
   };
 
+  virtualisation.docker.enable = true;
 }

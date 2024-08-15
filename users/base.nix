@@ -3,7 +3,7 @@
   users.users.base = {
     isNormalUser = true;
     description = "base";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
 
     openssh.authorizedKeys.keys =
       [
