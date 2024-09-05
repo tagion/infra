@@ -12,7 +12,7 @@ nixos-rebuild switch --target-host base@uranus --flake .#qa
 
 Tagion infrastructure
 
-Resources:
+Resources:  
 https://github.com/tagion/devopsdoc  
 https://astro.github.io/microvm.nix/intro.html  
 https://github.com/astro/microvm.nix  
